@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+*{
+    font-family: "Fredoka", sans-serif;
+}
+
+body{
+    background-image: url('./IMG/Background_02.png');
+    background-size: cover;
+}
+
+.mybutton{  
+    background-color: #c3eb95;
+    padding: 15px;
+    border-radius: 20px;
+    color: #32690d;
+    margin: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.mybutton:hover{
+    background-color: #32690d;
+    color: #c3eb95;
+}
+
+p{
+    font-size: 1rem;
+    color: #32690d;
+}
+
+.myTittle{
+    font-family: "Delius", cursive;
+    font-size: 4rem;
+    color: rgb(16, 99, 44);
+}
